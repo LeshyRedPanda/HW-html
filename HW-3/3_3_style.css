@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+section {
+  height: 50vh;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top  {
+  background-color: rgba(255, 105, 180, 0.61);
+}
+.bottom {
+  background-color: black;
+  color: white;
+}
+h2,span {
+  padding: 10px;
+}
+h2 {
+  font-size: 2.2em;
+}
+span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
