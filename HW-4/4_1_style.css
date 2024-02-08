@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;1,200&display=swap');
+
+body {
+  margin: 0;
+  bottom: 0;
+
+}
+
+/*----------head----------*/
+header {
+  height: 100vh;
+  background-image: url("img/image 4.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-wrap {
+  background: white;
+  width: 60vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 50px;
+}
+
+.img-box {
+  width: 30vw;
+  height: 35vh;
+
+}
+
+.img-head {
+  height: 100%;
+  background-image: url("img/image 3.jpg");
+  background-size: 30vw 35vh;
+}
+
+.aside {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+h2, p, button {
+  font-family: 'KoHo', sans-serif;
+}
+
+.aside button {
+  width: 80%;
+  height: 20%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 10px -4px rgba(0, 0, 0, 0.75);
+  margin: 25px;
+  font-size: 1.3em;
+  border: 1px solid rgba(156, 152, 152, 0.10);
+  background: rgba(217, 217, 217, 0.60);
+
+}
+
+/*----------main----------*/
+main {
+  height: 100vh;
+  background-image: url("img/Rectangle 4.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 500px;
+  height: 900px;
+
+}
+
+.video {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+iframe {
+  width: 60vw;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.huge-txt {
+  font-size: 2em;
+  margin: 5px 0;
+}
+
+.txt {
+  padding: 0 280px;
+  font-weight: bold;
+}
+
+.txt p {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+/*----------footer----------*/
+footer {
+  height: 100vh;
+  background-image: url("img/Rectangle 4.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 80%;
+  background: rgba(83, 83, 83, 0.40);
+  margin: 25px 20px;
+  flex-direction: column;
+}
+
+.card p {
+  font-family: 'KoHo', sans-serif;
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.img-1 {
+  width: 400px;
+  height: 200px;
+  background-image: url("img/Rectangle 13.jpg");
+  background-size: cover;
+
+}
+
+.img-2 {
+  width: 400px;
+  height: 200px;
+  background-image: url("img/Rectangle 10.jpg");
+  background-size: cover;
+}
+
+.img-3 {
+  width: 400px;
+  height: 200px;
+  background-image: url("img/Rectangle 10 (1).jpg");
+  background-size: cover;
+}
+
+.card button {
+  width: 80%;
+  height: 10%;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 10px -4px rgba(0, 0, 0, 0.75);
+  margin: 25px;
+  font-size: 1.3em;
+  color: rgba(83, 83, 83, 0.40);
+  background: rgba(217, 217, 217, 0.60);
+}
+
+.price {
+  padding-top: 70px;
+}
