@@ -156,6 +156,7 @@ footer {
   height: 200px;
   background-image: url("img/Rectangle 13.jpg");
   background-size: cover;
+  margin-top: 15px;
 
 }
 
@@ -164,6 +165,7 @@ footer {
   height: 200px;
   background-image: url("img/Rectangle 10.jpg");
   background-size: cover;
+  margin-top: 15px;
 }
 
 .img-3 {
@@ -171,6 +173,7 @@ footer {
   height: 200px;
   background-image: url("img/Rectangle 10 (1).jpg");
   background-size: cover;
+  margin-top: 15px;
 }
 
 .card button {

@@ -1,0 +1,136 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*----------main----------*/
+main {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.main-wrap {
+  width: 35vw;
+  height: 70vh;
+  border: 2px solid silver;
+}
+
+main div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+/*----------content----------*/
+
+.insta-logo {
+  width: 65%;
+  height: 20%;
+  background-image: url("img/insta-logo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 25vw;
+  height: 3vh;
+  border: 1px solid silver;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #f8f8f8;
+  padding: 5px;
+
+}
+
+.name-account, .password-account {
+  padding-bottom: 10px;
+}
+
+button {
+  width: 25vw;
+  height: 5vh;
+  color: white;
+  background-color: #67b4f8;
+  font-size: 21px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.or {
+  font-weight: bold;
+  font-size: 24px;
+  color: #6b6b6b;
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.facebook p {
+  font-size: 24px;
+  color: #2f487f;
+  font-weight: bold;
+}
+
+.fb-logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("img/i-facebook-48.png");
+  background-position: center center;
+  background-size: cover;
+  padding-right: 5px;
+}
+
+.forgot-password {
+  font-size: 18px;
+  color: #2f487f;
+}
+
+.footer-wrap {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-wrap div {
+  width: 35vw;
+  height: 10vh;
+  border: 2px solid silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrap p, span {
+  font-size: 23px;
+
+  font-weight: bold;
+}
+
+.footer-wrap span {
+  color: #67b4f8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
