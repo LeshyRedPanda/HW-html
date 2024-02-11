@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.pink ol li:nth-child(even) {
+  color: deeppink;
+}
+.twenty-two>ol>li:nth-child(odd) {
+  font-size: 22px;
+}
+.attention>ol>li:nth-child(2n+4):after {
+  content: "!";
+}
+.purple>ol>li:last-child {
+  color: mediumpurple;
+}
+.red>ol>li::first-letter {
+  font-size: 30px;
+  color: red;
+}
+
