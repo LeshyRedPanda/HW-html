@@ -1,0 +1,23 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+
+  header {
+    width: 100vw;
+    height: 10vh;
+  }
+
+  .wrap {
+    height: 90vh;
+    flex-direction: column;
+  }
+
+  .left-center {
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .right-bottom {
+    width: 100vw;
+    height: 10vh;
+
+  }
+}
