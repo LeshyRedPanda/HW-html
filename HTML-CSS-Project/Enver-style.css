@@ -60,7 +60,7 @@ header {
   line-height: normal;
   margin-right: 40px;
   text-decoration: none;
-  transition: .5s;
+  transition: .3s;
 }
 .navigation>a:hover {
   color: rebeccapurple ;
